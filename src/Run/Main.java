@@ -34,7 +34,6 @@ public class Main {
 
             players[i] = new Player(logins[i].getUsername(), logins[i].getPassword(), logins[i].getWins());
         }
-        System.out.println(logins[0].equals(logins[1]));
 
         //Player vs Bot vagy Player vs Player
         if(playerCount == 1) {
