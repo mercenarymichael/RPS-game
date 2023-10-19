@@ -1,0 +1,13 @@
+package Game;
+
+public enum ASCII {
+    ROCK_ROCK,
+    PAPER_PAPER,
+    SCISSOR_SCISSOR,
+    ROCK_PAPER,
+    PAPER_ROCK,
+    ROCK_SCISSOR,
+    SCISSOR_ROCK,
+    PAPER_SCISSOR,
+    SCISSOR_PAPER
+}
