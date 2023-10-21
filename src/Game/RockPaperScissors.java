@@ -42,11 +42,6 @@ public class RockPaperScissors{
         }
     }
 
-    public void PlayerVsPlayer(Scanner scr) {
-        scr = new Scanner(System.in);
-
-    }
-
 
     private void evaluateWinner(String action1, String action2) {
         if (action1.equals(action2)) {

@@ -1,8 +1,8 @@
 package User;
 
-public class Player extends ChangeAndDelete implements userMethods{
-    private String userName;
-    private String password;
+public class Player implements userMethods{
+    private final String userName;
+    private final String password;
     private String move;
     private int wins;
 

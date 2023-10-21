@@ -8,22 +8,20 @@ public class Login {
     private String username;
     private String password;
     private int wins;
-    private static int instanceCount;
+    private File file;
 
-    public Login() {
-        instanceCount++;
+    public Login(File file) {
+        this.file = file;
     }
-
-    //van-e ilyen user a txt-be (felepites: username, password, wins, uressor)
-    public boolean UserExists() {
+    //Checks for user credentials in the users.txt file (structure: username, password, wins, empty line)
+    public static boolean UserExists(String username, String password) {
         try {
             BufferedReader bfr = new BufferedReader(new FileReader("users.txt"));
-            //BufferedWriter bfw = new BufferedWriter(new FileWriter("users.txt"));
             int linePos = 0;
-            String line = "";
+            String line;
             while((line = bfr.readLine()) != null) {
-                if(linePos % 3 == 0 && line.equals(this.username)) {
-                    if((line = bfr.readLine()).equals(this.password)) {
+                if(linePos % 4 == 0 && line.equals(username)) {
+                    if((line = bfr.readLine()).equals(password)) {
                         return true;
                     }
                 }
@@ -31,7 +29,7 @@ public class Login {
             }
             bfr.close();
         } catch (IOException ioe) {
-            throw new RuntimeException(ioe);
+            System.err.println("IOException in UserExists()");
         }
         return false;
     }
@@ -39,8 +37,6 @@ public class Login {
     //username es password bekerese
     public void CredentialsRead(Scanner scr) {
         scr = new Scanner(System.in);
-
-        System.out.println(instanceCount+". player:");
 
         System.out.print("Username: ");
         this.username = scr.nextLine();
@@ -50,6 +46,7 @@ public class Login {
 
         System.out.println("-------------------------------------------");
     }
+
 
     public String getUsername() {
         return username;

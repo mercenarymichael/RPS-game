@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3d60ff-344f-446d-9d20-20eef6f9212f" name="Changes" comment="Rock Paper Scissors game">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/ChangeAndDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/miklo/IdeaProjects/LoginApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/miklo/IdeaProjects/LoginApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +71,9 @@
       <workItem from="1697716424018" duration="5769000" />
       <workItem from="1697726334124" duration="2227000" />
       <workItem from="1697743198994" duration="6769000" />
-      <workItem from="1697752090722" duration="174000" />
+      <workItem from="1697752090722" duration="599000" />
+      <workItem from="1697881051033" duration="2771000" />
+      <workItem from="1697883864502" duration="3421000" />
     </task>
     <task id="LOCAL-00001" summary="Rock Paper Scissors game">
       <option name="closed" value="true" />
