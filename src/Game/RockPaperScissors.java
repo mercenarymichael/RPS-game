@@ -1,8 +1,9 @@
 package Game;
 
-import User.Player;
+import User.SaveWins;
 
 import java.util.Scanner;
+
 
 public class RockPaperScissors{
     private Player p1;
@@ -35,23 +36,39 @@ public class RockPaperScissors{
             } else {
                 System.out.print(p2.getUserName()+"'s move (rock/paper/scissors): ");
                 p2.setMove(scr.nextLine());
+                whichDrawing();
                 evaluateWinner(p1.getMove(), p2.getMove());
             }
             System.out.print("Do you want to play another round?(y/n): ");
-            if(scr.nextLine().equals("n")) break;
+            if(scr.nextLine().equals("n")) {
+                if(playerCount == 2) {
+                    SaveWins.save(p1.getUserName(), p1.getWins());
+                    SaveWins.save(p2.getUserName(), p2.getWins());
+                } else {
+                    SaveWins.save(p1.getUserName(), p1.getWins());
+                }
+                break;
+            }
         }
     }
 
+    private void whichDrawing() {
+        if(p1.getMove().equals("rock") && p2.getMove().equals("rock")) Draw.DrawArt(ASCII.ROCK_ROCK);
+        else if(p1.getMove().equals("paper") && p2.getMove().equals("paper")) Draw.DrawArt(ASCII.PAPER_PAPER);
+        else if(p1.getMove().equals("scissors") && p2.getMove().equals("scissors")) Draw.DrawArt(ASCII.SCISSORS_SCISSORS);
+    }
 
     private void evaluateWinner(String action1, String action2) {
         if (action1.equals(action2)) {
             System.out.println("It's a draw!");
         } else if (player1Wins(action1, action2)) {
             System.out.println(p1.getUserName()+" wins!");
+            p1.incrementWins();
         } else if (playerCount == 1){
             System.out.println("Computer wins!");
         } else {
             System.out.println(p2.getUserName()+" wins!");
+            p2.incrementWins();
         }
     }
 

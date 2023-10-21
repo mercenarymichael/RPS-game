@@ -1,9 +1,6 @@
 package Run;
 
-import Game.Bot;
-import Game.Draw;
-import Game.RockPaperScissors;
-import User.Player;
+import Game.*;
 import User.Login;
 import User.Register;
 
@@ -12,10 +9,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
+    //TODO: ASCII drawings, drawing selector logic, text decorations,
+    //      maybe rework the User package(inheritances)
     private static int playerCount;
-    private static final File file = new File("users.txt");
+    public static final File file = new File("users.txt");
     public static void main(String[] args) {
-        Draw.DrawArt(1);
+        Draw.DrawArt(ASCII.TITLE);
         Scanner scr = new Scanner(System.in);
 
         registerAccount(scr);

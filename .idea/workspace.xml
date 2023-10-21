@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3d60ff-344f-446d-9d20-20eef6f9212f" name="Changes" comment="Rock Paper Scissors game">
-      <change afterPath="$PROJECT_DIR$/src/User/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/SaveWins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCIIArt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCIIArt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/ChangeAndDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/userMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/userMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/ASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/ASCII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Draw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/ChangeAndDelete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/userMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/userMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,7 @@
       <workItem from="1697743198994" duration="6769000" />
       <workItem from="1697752090722" duration="599000" />
       <workItem from="1697881051033" duration="2771000" />
-      <workItem from="1697883864502" duration="3421000" />
+      <workItem from="1697883864502" duration="11725000" />
     </task>
     <task id="LOCAL-00001" summary="Rock Paper Scissors game">
       <option name="closed" value="true" />

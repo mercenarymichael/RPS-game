@@ -15,7 +15,7 @@ public class Register extends Login{
 
 
         if(isUsernameTaken()) {
-            System.out.println("Usename is taken, try again!");
+            System.out.println("Username is taken, try again!");
         } else {
             createUser(super.getUsername(), super.getPassword());
         }
@@ -53,8 +53,9 @@ public class Register extends Login{
             bfw.newLine();
             bfw.newLine();
             bfw.close();
+            System.out.println("Registration completed!");
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("Registration has failed! IOException in createUser()");
         }
     }
 }

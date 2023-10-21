@@ -1,8 +1,12 @@
-Miklos
-asd123
+miki
+a
+3
+
+beni
+b
 0
 
-asd
-123
-0
+andris
+d
+1
 

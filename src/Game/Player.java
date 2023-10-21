@@ -1,6 +1,8 @@
-package User;
+package Game;
 
-public class Player implements userMethods{
+import User.userMethods;
+
+public class Player implements userMethods {
     private final String userName;
     private final String password;
     private String move;
@@ -22,6 +24,9 @@ public class Player implements userMethods{
     public int getWins() {
         return this.wins;
     }
+
+    @Override
+    public void incrementWins() {this.wins++;}
 
     @Override
     public void setMove(String move) {

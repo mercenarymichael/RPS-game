@@ -5,4 +5,5 @@ public interface userMethods {
     int getWins();
     void setMove(String move);
     String getMove();
+    void incrementWins();
 }
