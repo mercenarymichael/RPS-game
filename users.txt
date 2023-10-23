@@ -1,12 +1,20 @@
 miki
 a
-3
+5
 
 beni
 b
-0
+1
 
 andris
 d
 1
+
+Mikike
+asd
+0
+
+bendzsi
+fasz
+0
 

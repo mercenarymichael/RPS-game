@@ -32,11 +32,12 @@ public class RockPaperScissors{
             p1.setMove(scr.nextLine());
             if(playerCount == 1) {
                 bot.botMove();
+                whichDrawing(p1.getMove(), bot.getMove());
                 evaluateWinner(p1.getMove(), bot.getMove());
             } else {
                 System.out.print(p2.getUserName()+"'s move (rock/paper/scissors): ");
                 p2.setMove(scr.nextLine());
-                whichDrawing();
+                whichDrawing(p1.getMove(), p2.getMove());
                 evaluateWinner(p1.getMove(), p2.getMove());
             }
             System.out.print("Do you want to play another round?(y/n): ");
@@ -52,24 +53,46 @@ public class RockPaperScissors{
         }
     }
 
-    private void whichDrawing() {
-        if(p1.getMove().equals("rock") && p2.getMove().equals("rock")) Draw.DrawArt(ASCII.ROCK_ROCK);
-        else if(p1.getMove().equals("paper") && p2.getMove().equals("paper")) Draw.DrawArt(ASCII.PAPER_PAPER);
-        else if(p1.getMove().equals("scissors") && p2.getMove().equals("scissors")) Draw.DrawArt(ASCII.SCISSORS_SCISSORS);
+    private void whichDrawing(String action1, String action2) {
+        if(action1.equals("rock") && action2.equals("rock")) Draw.DrawArt(ASCII.ROCK_ROCK);
+        else if(action1.equals("paper") && action2.equals("paper")) Draw.DrawArt(ASCII.PAPER_PAPER);
+        else if(action1.equals("scissors") && action2.equals("scissors")) Draw.DrawArt(ASCII.SCISSORS_SCISSORS);
+        else if(action1.equals("rock") && action2.equals("paper")) Draw.DrawArt(ASCII.ROCK_PAPER);
+        else if(action1.equals("rock") && action2.equals("scissors")) Draw.DrawArt(ASCII.ROCK_SCISSORS);
+        else if(action1.equals("paper") && action2.equals("rock")) Draw.DrawArt(ASCII.PAPER_ROCK);
+        else if(action1.equals("paper") && action2.equals("scissors")) Draw.DrawArt(ASCII.PAPER_SCISSORS);
+        else if(action1.equals("scissors") && action2.equals("rock")) Draw.DrawArt(ASCII.SCISSORS_ROCK);
+        else Draw.DrawArt(ASCII.SCISSORS_PAPER);
     }
 
     private void evaluateWinner(String action1, String action2) {
+        String result;
         if (action1.equals(action2)) {
-            System.out.println("It's a draw!");
+            result = "It's a draw!";
         } else if (player1Wins(action1, action2)) {
-            System.out.println(p1.getUserName()+" wins!");
+            result = p1.getUserName()+" wins!";
             p1.incrementWins();
         } else if (playerCount == 1){
-            System.out.println("Computer wins!");
+            result = "Computer wins!";
         } else {
-            System.out.println(p2.getUserName()+" wins!");
+            result = p2.getUserName()+" wins!";
             p2.incrementWins();
         }
+
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < result.length()+2; j++) {
+                if(i == 1) {
+                    sb.append("*"+result+"*");
+                    break;
+                } else {
+                    sb.append("*");
+                }
+            }
+            sb.append("\n");
+        }
+        //center the result text
+        System.out.println(sb.toString().indent((Draw.ASCIILength-(result.length()+2))/2));
     }
 
     private boolean player1Wins(String action1, String action2) {

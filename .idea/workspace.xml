@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3d60ff-344f-446d-9d20-20eef6f9212f" name="Changes" comment="Rock Paper Scissors game">
-      <change afterPath="$PROJECT_DIR$/src/User/SaveWins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCIIArt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCIIArt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Game/ASCII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Game/ASCII.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/ChangeAndDelete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Player.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/userMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/userMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/ASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/ASCII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Draw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/userMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/userMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mercenarymichael"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e7c2545d-2d0e-4662-8905-9e9d607b1fc4" />
+        <option name="url" value="git@github.com:mercenarymichael/RPS-game.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -108,5 +116,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rock Paper Scissors game" />
     <option name="LAST_COMMIT_MESSAGE" value="Rock Paper Scissors game" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Game/RockPaperScissors.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Run/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Game/RockPaperScissors.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sb" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

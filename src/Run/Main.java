@@ -6,6 +6,8 @@ import User.Register;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.InputMismatchException;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -28,7 +30,7 @@ public class Main {
             logins[i] = new Login(file);
             System.out.println(i+1+". player:");
             logins[i].CredentialsRead(scr);
-            while(!logins[i].UserExists(logins[i].getUsername(), logins[i].getPassword())){
+            while(!Login.UserExists(logins[i].getUsername(), logins[i].getPassword())){
                 System.out.println("Username or password is wrong, try again!");
                 logins[i].CredentialsRead(scr);
             }
@@ -52,7 +54,12 @@ public class Main {
     //how many players are playing
     private static int gameMode(Scanner scr) {
         System.out.print("1 or 2 Players?: ");
-        int num = scr.nextInt();
+        String s = scr.nextLine();
+        while(!s.equals("1") && !s.equals("2")) {
+            System.out.println("Wrong input, try again! (1/2)");
+            s = scr.nextLine();
+        }
+        int num = Integer.parseInt(s);
         System.out.println("-------------------------------------------");
         return num;
     }
@@ -69,12 +76,28 @@ public class Main {
         }
 
         while(true) {
-            System.out.println("Do you want to register an account? (y/n)");
-            if(scr.nextLine().equals("y"))  {
+            System.out.print("Do you want to register an account? (y/n): ");
+            String yesOrNo = scr.nextLine().toLowerCase();
+
+            while(!yesOrNo.equals("y") && !yesOrNo.equals("n")) {
+                System.out.println("Wrong input, try again! (y/n): ");
+                yesOrNo = scr.nextLine();
+            }
+
+            if(yesOrNo.equals("y"))  {
                 new Register(scr, file);
             } else {
                 break;
             }
         }
+    }
+    public static boolean isInteger(String s) {
+        try {
+            Integer.parseInt(s);
+        } catch(NumberFormatException e) {
+            return false;
+        }
+
+        return true;
     }
 }

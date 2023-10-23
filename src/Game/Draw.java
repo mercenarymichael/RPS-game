@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.Arrays;
 
 public class Draw {
+    public static final int ASCIILength = 40;
     public static void DrawArt(ASCII ascii){
         int num = ascii.getNumber();
         try {
