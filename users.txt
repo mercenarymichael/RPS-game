@@ -1,6 +1,6 @@
 miki
 a
-5
+6
 
 beni
 b
@@ -17,4 +17,20 @@ asd
 bendzsi
 fasz
 0
+
+Peti
+fasz
+1
+
+én
+000
+1
+
+nig
+nig2
+1
+
+Liza
+mikike
+1
 

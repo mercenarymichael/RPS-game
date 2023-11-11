@@ -4,6 +4,7 @@ import Game.*;
 import User.Login;
 import User.Register;
 
+import java.io.Console;
 import java.io.File;
 import java.io.IOException;
 import java.util.InputMismatchException;

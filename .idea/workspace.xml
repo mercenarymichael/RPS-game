@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a3d60ff-344f-446d-9d20-20eef6f9212f" name="Changes" comment="Rock Paper Scissors game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASCIIArt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCIIArt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Game/ASCII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Game/ASCII.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Game/RockPaperScissors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/Run/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginApp/User/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginApp/User/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +27,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mercenarymichael"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mercenarymichael&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -87,6 +80,11 @@
       <workItem from="1697752090722" duration="599000" />
       <workItem from="1697881051033" duration="2771000" />
       <workItem from="1697883864502" duration="11725000" />
+      <workItem from="1698141627891" duration="232000" />
+      <workItem from="1698749750889" duration="27000" />
+      <workItem from="1698749934127" duration="17000" />
+      <workItem from="1699041581582" duration="257000" />
+      <workItem from="1699699066336" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="Rock Paper Scissors game">
       <option name="closed" value="true" />
@@ -118,25 +116,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Rock Paper Scissors game" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Game/RockPaperScissors.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Run/Main.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Game/RockPaperScissors.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="sb" />
